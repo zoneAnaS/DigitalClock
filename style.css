@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+body{
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(SunsetBG.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.container{
+    height: 35vh;
+    width: 70vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0px 0px 10px white;
+    text-transform:uppercase;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+
+
+}
+.container:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+h2{
+    
+    letter-spacing: 5px;
+    font-size: 35px;
+    text-shadow: 0px 0px 10px rgb(255, 93, 93);
+}
+.container .clock{
+    display: flex;
+    letter-spacing: 2px;
+}
+.container .clock div{
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+}
+.container .clock span{
+    font-size: 40px;
+}
+.container .clock .text{
+    font-size: 20px;
+   
+}
+.container .clock #ampm{
+    position: relative;
+    top:40px;
+    font-size: 25px;
+}
